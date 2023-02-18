@@ -30,6 +30,8 @@ Users should be able to:
 ### Screenshot
 
 ![image](https://user-images.githubusercontent.com/100562475/218037732-53dae886-0aa1-41f3-9764-831dd911fb51.png)
+![image](https://user-images.githubusercontent.com/100562475/219845366-361881f3-afc5-4b81-935d-5535040a621d.png)
+
 
 ### Links
 
@@ -42,11 +44,14 @@ Users should be able to:
 
 - HTML5 markup
 - CSS custom properties
+- JavaScript
 
 ### What I learned
 
 -Using nested divs in HTML
 -Incorporating popping font from font.google.com
+- Validating form entries using javascript
+- using trim() to remove extra spaces that might affect validations
 
 ```html
 <h1>HTML code I'm proud of</h1>
@@ -60,18 +65,27 @@ Users should be able to:
 .proud-of-this-css {
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 }
-```
+```Javascript  codes I am proud of
+if (firstnameValue === '') {
+    setErrorFor(firstname, 'First Name cannot be empty');
+  } else {
+    setSuccessFor(firstname);
+    
+function isValidEmail(email) {
+  // A simple regular expression to validate email format
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 
 ### Continued development
 
 -How to add a background image and make it transparent in CSS.
--Use JS to validate the form, make it form more interactive and give the user error messages where necessary.
+- How to add image icon for errors
 -Perfect myuse of flex and flex wrap in CSS.
 
 ### Useful resources
 
 - [W3schools](https://www.w3schools.com/html/default.asp) - This site helped me at the start of working on the layout of the form.
 - [Frontend mentor](https://www.frontendmentor.io/home) - This site gave me great insight into creating this particular form. I watched a video that showed me step-by-step way walk-through in creating the form. I also got a README template (the one I used to create this README) from them. I will recommend them to any newbies out there.
+- ChatGPT - Used for generating some codes and explanation of some codes.
 
 ## Author
 
