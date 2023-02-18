@@ -26,6 +26,8 @@ Users should be able to:
 
 - Access, complete and submit the form easily.
 - See all the interactive state of the form.
+- Validattion should ensure all fields are filled.
+- Validation should ensure email format is correct.
 
 ### Screenshot
 
